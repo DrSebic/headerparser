@@ -12,6 +12,7 @@
   "author": "DrSebic",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "bowser": "1.4.1",
+    "express": "4.14.0"
   }
 }
