@@ -11,7 +11,6 @@ var server = http.createServer(function (req, res){
     var languageInfo = req.headers["accept-language"];
     resultObject.language = languageInfo.slice(0, languageInfo.indexOf(","));
     
-    
     resultObject.ipaddress = req.headers['x-forwarded-for'];
     
     resultObject.software = readOperatingSystem(req.headers['user-agent']);
